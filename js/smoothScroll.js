@@ -24,31 +24,43 @@ $(function(){
 	$('.sub .navBt').each(function(j){
 		$(this).on({
 			click:	function(){
-				if(j==0){  //첫번째버튼 클릭하면
+                if(j==2){  //첫번째버튼 클릭하면
 					$('html,body').stop().animate({scrollTop:0});		
 				}
-				else if(j==1){  //두번째버튼 클릭하면
-					$('html,body').stop().animate({scrollTop:$('#section9').offset().top-43},600);
-				}
-				else if(j==2){  //세번째버튼 클릭하면
-					$('html,body').stop().animate({scrollTop:$('#section11').offset().top-43},600);
-				}
 				else if(j==3){  //네번째버튼 클릭하면
-					$('html,body').stop().animate({scrollTop:$('#section12').offset().top-43},600);
+					$('html,body').stop().animate({scrollTop:$('#druh').offset().top-43},600);
 				}
 				else if(j==4){  //네번째버튼 클릭하면
-					$('html,body').stop().animate({scrollTop:$('#section14').offset().top-43},600);
+					$('html,body').stop().animate({scrollTop:$('#picas').offset().top-43},600);
 				}
 				else if(j==5){  //네번째버튼 클릭하면
-					$('html,body').stop().animate({scrollTop:$('#section13').offset().top-43},600);
+					$('html,body').stop().animate({scrollTop:$('#csia').offset().top-43},600);
 				}
 				else if(j==6){  //네번째버튼 클릭하면
+					$('html,body').stop().animate({scrollTop:$('#cori').offset().top-43},600);
+				}
+				else if(j==7){  //두번째버튼 클릭하면
+					$('html,body').stop().animate({scrollTop:$('#section9').offset().top-43},600);
+				}
+				else if(j==8){  //세번째버튼 클릭하면
+					$('html,body').stop().animate({scrollTop:$('#section11').offset().top-43},600);
+				}
+				else if(j==9){  //네번째버튼 클릭하면
+					$('html,body').stop().animate({scrollTop:$('#section12').offset().top-43},600);
+				}
+				else if(j==10){  //네번째버튼 클릭하면
+					$('html,body').stop().animate({scrollTop:$('#section14').offset().top-43},600);
+				}
+				else if(j==11){  //네번째버튼 클릭하면
+					$('html,body').stop().animate({scrollTop:$('#section13').offset().top-43},600);
+				}
+				else if(j==12){  //네번째버튼 클릭하면
 					$('html,body').stop().animate({scrollTop:$('#section15').offset().top-43},600);
 				}
-				else if(j==7){  //네번째버튼 클릭하면
+				else if(j==13){  //네번째버튼 클릭하면
 					$('html,body').stop().animate({scrollTop:$('#section16').offset().top-43},600);
 				}
-				else if(j==8){  //네번째버튼 클릭하면
+				else if(j==14){  //네번째버튼 클릭하면
 					$('html,body').stop().animate({scrollTop:$('#section17').offset().top-43},600);
 				}
 			}
