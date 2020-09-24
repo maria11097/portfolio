@@ -1,7 +1,8 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500;700;900&display=swap');
 @import url(reset.css);
 
-body { font-family: "nanum gothic"; }
+body {font-family: 'Noto Sans KR', sans-serif;}
 #wrap{width:100%;height:auto;}
 #header{z-index:3;position:fixed;top:0;transition:all 0.3s;left:0;width:100%;height:43px;background:transparent;}
 .headerWhiteBg{z-index:1;position:absolute;top:-43px;left:0;width:100%;height:100%;background:#fff;box-shadow:0 2px 5px rgba(0,0,0, .25);}
@@ -15,15 +16,18 @@ body { font-family: "nanum gothic"; }
 .header-left-wrap-ul>li>a:hover{color:#000;background:#e8bb44;}
 
 @media all and (max-width:1250px){
-.header-left-wrap-ul>li{display:none;}
-.header-left-wrap-ul>li:nth-child(1){display:block;}
-.mobile { display: block; }
+    .header-left-wrap-ul>li{display:none;}
+    .header-left-wrap-ul>li:nth-child(1){display:block;}
+    .mobile { display: block; }
 }
 
+@media all and (max-width:1670px){
+    #header{height:93px;}
+}
 /* 600픽셀이하에서 HOME메뉴버튼만 남기고 모두 사라짐 */
 @media  all  and  (max-width:600px){
-.header-left-wrap-ul>li{display:none;}
-.header-left-wrap-ul>li:nth-child(1){display:block;}
+    .header-left-wrap-ul>li{display:none;}
+    .header-left-wrap-ul>li:nth-child(1){display:block;}
 }				
 
 
