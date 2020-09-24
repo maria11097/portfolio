@@ -21,7 +21,7 @@ body {font-family: 'Noto Sans KR', sans-serif;}
     .mobile { display: block; }
 }
 
-@media all and (max-width:1670px){
+@media all and (min-width:1246px) and (max-width:1682px){
     .sub #header{height:93px;}
 }
 /* 600픽셀이하에서 HOME메뉴버튼만 남기고 모두 사라짐 */
