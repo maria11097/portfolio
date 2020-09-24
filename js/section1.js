@@ -36,6 +36,14 @@ $(function(){
 				winH = $(window).innerHeight();
 				$('#section17').css({height:winH});
 				winH = $(window).innerHeight();
+				$('#saleson').css({height:winH});
+				winH = $(window).innerHeight();
+				$('#druh').css({height:winH});
+				winH = $(window).innerHeight();
+				$('#csia').css({height:winH});
+				winH = $(window).innerHeight();
+				$('#cori').css({height:winH});
+				winH = $(window).innerHeight();
 			}
 			
 			//반응형 모바일 이미지 
