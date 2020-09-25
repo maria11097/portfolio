@@ -24,7 +24,7 @@ $(function(){
 	$('.sub .navBt').each(function(j){
 		$(this).on({
 			click:	function(){
-                if(j==2){  //첫번째버튼 클릭하면
+                	if(j==2){  //첫번째버튼 클릭하면
 					$('html,body').stop().animate({scrollTop:0});		
 				}
 				else if(j==3){  //네번째버튼 클릭하면
@@ -67,7 +67,7 @@ $(function(){
 		});
 	});
 	
-	$('.mBt').each(function(i){
+	$('.wrap .mBt').each(function(i){
 		$(this).on({
 			click:	function(){
 				if(i==0){  //첫번째버튼 클릭하면
