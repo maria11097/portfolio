@@ -40,6 +40,8 @@ $(function(){
 				winH = $(window).innerHeight();
 				$('#druh').css({height:winH});
 				winH = $(window).innerHeight();
+				$('#picas').css({height:winH});
+				winH = $(window).innerHeight();
 				$('#csia').css({height:winH});
 				winH = $(window).innerHeight();
 				$('#cori').css({height:winH});
